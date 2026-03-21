@@ -32,4 +32,4 @@ jobs:
 
       - name: Run tests
         shell: bash
-        run: uv run --extra dev pytest tests/test_plaid.py
+        run: uv run --with pytest --with pytest-cov pytest tests/test_plaid.py
