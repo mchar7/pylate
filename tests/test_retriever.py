@@ -1,6 +1,10 @@
 from __future__ import annotations
 
+import pytest
+
 from pylate import indexes, models, retrieve
+
+pytest.importorskip("voyager")
 
 
 def test_voyager_index(**kwargs) -> None:
