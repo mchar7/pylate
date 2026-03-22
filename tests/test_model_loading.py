@@ -94,6 +94,15 @@ def cleanup_hf_cache():
             32,
             {},
         ),
+        (
+            "lightonai/GTE-ModernColBERT-v1",
+            "cbbe53366e564450558f5e639dd499171f127538",
+            "[Q] ",
+            "[D] ",
+            299,
+            48,
+            {},
+        ),
     ],
 )
 def test_load_model(
