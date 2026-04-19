@@ -67,8 +67,8 @@ docs = [
     "numpydoc == 1.8.0",
 ]
 
-[tool.setuptools]
-packages = ["pylate"]
+[tool.setuptools.packages.find]
+include = ["pylate", "pylate.*"]
 
 [tool.setuptools.package-data]
 pylate = ["hf_hub/model_card_template.md", "py.typed"]
